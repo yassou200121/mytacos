@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/styleMenu.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/avgrund.css">
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+
+	</head>
+
+	<body>
+		<div id="page">
+			<center>
+				<div id="progressContainer" style="background-color: transparent; width: auto; height:auto; display:flex; padding-top: 20px;">
+					<div id="progressBarCompo" style="display:block; height:25px; width: 500px; border: solid 2px blue; margin-left:auto;margin-right:auto;"></div>
+				</div>
+			</center>
+			<center>
+				<div id="compoMenuContainer" style="width: auto; margin:0 auto; background-color:transparent; max-height:300px;">
+					<aside style="display:inline-block;">
+						<h2 class="H2MenuName">Sandwich</h2> 
+						<div class="modalCompo">
+							<p>Choisissez la taille de votre sandwich :</p>
+							<select id="sizeCompoSelect" style="margin-right: 0 auto;margin-left: 0 auto;max-height:25px;">
+								<option>M</option>
+								<option>L</option>
+								<option>XL</option>
+								<option>XL</option>
+							</select>
+						</div>
+						<a class="validCompoButton">Suivant</a>
+					</aside>
+
+					<aside style="display:none;">
+						<h2 class="H2MenuName">Viandes</h2> 
+						<div class="modalCompo">
+							<p>Choisissez vos viandes</p>
+							<select id="viandeCompoSelect" style="margin-right: 0 auto;margin-left: 0 auto;max-height:25px;">
+								<option>Cordon bleu</option>
+								<option>Kebab</option>
+								<option>Chicken</option>
+								<option>Steack</option>
+								<option>Nuggets</option>
+							</select>
+						</div>
+						<a class="validCompoButton">Suivant</a>
+					</aside>
+
+					<aside style="display:none;">
+						<h2 class="H2MenuName">Sauces</h2> 
+						<div class="modalCompo">
+							<p>Choisissez-vos sauces :</p>
+							<select id="sauceCompoSelect">
+								<option>Curry</option>
+								<option>Mayonnaise</option>
+								<option>Ketchup</option>
+								<option>Moutarde</option>
+								<option>Algérienne</option>
+								<option>Marocaine</option>
+								<option>Barbecue</option>
+							</select>
+						</div>
+						<a class="validCompoButton">Suivant</a>
+					</aside>
+
+					<aside style="display:none;">
+						<h2 class="H2MenuName">Boisson</h2> 
+
+						<div class="modalCompo">
+						<p>Choisissez vos boissons</p>
+							<select id="boissonCompoSelect">
+								<option>Cocal Cola</option>
+								<option>Coca Cola Light</option>
+								<option>Coca Cola Zero</option>
+								<option>Coca Cola Cherry</option>
+								<option>Orangina</option>
+								<option>Sprite</option>
+								<option>Schweeps</option>
+								<option>Oasis</option>
+								<option>Ice Tea</option>
+								<option>7up</option>
+							</select>
+						</div>
+						<a class="validCompoButton">Suivant</a>
+					</aside>
+					<aside style="display:none;">
+						<h2 class="H2MenuName">Boisson</h2> 
+						<div class="modalCompo" style="font-size: 17px; line-height: 1em; color:black;">
+							<p>Taille : </p>
+							<p>Viandes : </p>
+							<p>Sauce : </p>
+							<p>Boisson : </p>
+							<p style="font-weight: bold;line-height: 0.75em;">PRIX : </p>
+						</div>
+						<br>
+						<a class="validCompoButton">Suivant</a>
+					</aside>
+				</div>
+			</center>	
+		</div>
+
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/jquery.nice-select.min.js"></script>
+		<script src="js/avgrund.js" type="text/javascript"></script>
+		<script src="js/menu.js" type="text/javascript"></script>
+		<script src="js/animatedModal.min.js"></script>
+	</body>
+</html>
